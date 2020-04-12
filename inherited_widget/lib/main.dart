@@ -94,5 +94,5 @@ class InheritedCounter extends InheritedWidget {
       context.inheritFromWidgetOfExactType(InheritedCounter);
 
   @override
-  bool updateShouldNotify(InheritedCounter old) => data.counter != old.data.counter;
+  bool updateShouldNotify(InheritedCounter old) => true;
 }
